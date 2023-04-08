@@ -36,7 +36,7 @@
 
 ## 02 视频领域
 1. DropMAE: Masked Autoencoders with Spatial-Attention Dropout for Tracking Tasks，2023.04.02
-  1. 引入时序关系学习
+    * 引入时序关系学习
 2. Unlocking Masked Autoencoders as Loss Function for Image and Video Restoration, 2023.03.29
 
 

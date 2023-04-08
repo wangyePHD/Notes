@@ -1,43 +1,80 @@
-## 3D_MAE
-1. Contrast with Reconstruct: Contrastive 3D Representation Learning Guided by Generative Pretraining, CVPR 2023, SOTA
-2. GD-MAE: Generative Decoder for MAE Pre-training on LiDAR Point Clouds, 2023.03.17, CVPR 2023 （掩码策略）
-3. Autoencoders as Cross-Modal Teachers: Can Pretrained 2D Image Transformers Help 3D Representation Learning?, ICLR 2023
-4. Point-BERT: Pre-training 3D Point Cloud Transformers with Masked Point Modeling, CVPR 2022
-5. PiMAE: Point Cloud and Image Interactive Masked Autoencoders for 3D Object Detection, 2023.03.14 CVPR2023
-6. Point-M2AE: Multi-scale Masked Autoencoders for Hierarchical Point Cloud Pre-training, 2022.05.28
-7. Learning 3D Representations from 2D Pre-trained Models via Image-to-Point Masked Autoencoders, 2022.12
-8. POS-BERT: Point Cloud One-Stage BERT Pre-Training, 2022.04.03
-9. Masked Autoencoders for Self-Supervised Learning on Automotive Point Clouds, 2022.07
-10. Voxel-MAE: Masked Autoencoders for Pre-training Large-scale Point Clouds, 2022.06.20
-11. Masked Autoencoders for Point Cloud Self-supervised Learning, 2022.03.13
-12. Masked Autoencoders in 3D Point Cloud Representation Learning，2022.07.04
+## 00 Multifold
+1. PointGame: Geometrically and Adaptively Masked Auto-Encoder on Point Clouds, 2023.03.23
+    * 有些类似
+2. Mask Hierarchical Features For Self-Supervised Learning, 2023.04.01
+    * 特征层面的multifold，不够简洁，但说明了multifold在feature层面是有用的
+3. PixMIM: Rethinking Pixel Reconstruction in Masked Image Modeling, 2023.03.14 
+    * 可能有用，重点看文章的insight
+4. Efficient Masked Autoencoders with Self-Consistency， 2023.02.28
+    * Multifold 
+5. SdAE: Self-distillated Masked Autoencoder, ECCV2022
+    * 出现了multifold views
+6. Multi-View Masked World Models for Visual Robotic Manipulation, 2023.02.05
+    * multiview
+7. Masked autoencoders are effective solution to transformer data-hungry，2023.01.10
+8. A SIMPLE, EFFICIENT AND SCALABLE CONTRASTIVE MASKED AUTOENCODER FOR LEARNING VISUAL REPRESENTATIONS，2022.10.30
+9. Masked Contrastive Representation Learning，2022.11.11
+10. Multimodal Masked Autoencoders Learn Transferable Representations，2022.10.21
+11. Masked Autoencoders are Robust Data Augmentors，2022.06.10
+12. Contrastive Masked Autoencoders are Stronger Vision Learners，2022.11.28
+13. Understanding Masked Image Modeling via Learning Occlusion Invariant Feature,2022.08.08
 
 
-## 3D 对比学习
-1. PointContrast: Unsupervised Pre-training for 3D Point Cloud Understanding, 2022.06
-2. P4Contrast: Contrastive Learning with Pairs of Point-Pixel Pairs for RGB-D Scene Understanding. 2020.12.13
-3. Exploring Data-Efficient 3D Scene Understanding with Contrastive Scene Contexts, 2020.12
-4. Self-Supervised Pretraining of 3D Features on any Point-Cloud, 2021.01.07
-5. SimIPU: Simple 2D Image and 3D Point Cloud Unsupervised Pre-Training for Spatial-Aware Visual Representations, 2021.12.09
+
+## 01 掩码策略
+1. Multi-Modal Representation Learning with Text-Driven Soft Masks, 2023.04.03
+2. Mask Hierarchical Features For Self-Supervised Learning, 2023.04.01
+    * 特征层面的multifold，不够简洁，但说明了multifold在feature层面是有用的。
+3. VideoMAE V2: Scaling Video Masked Autoencoders with Dual Masking, 2023.03.29
+4. Improving Masked Autoencoders by Learning Where to Mask, 2023.03.12
+5. ConMAE: Contour Guided MAE for Unsupervised Vehicle Re-Identification, 2023.02.11
+    * Contour guided
+6. Label Mask AutoEncoder(L-MAE): A Pure Transformer Method to Augment Semantic Segmentation Datasets， 2022.11.21
+7. Object-wise Masked Autoencoders for Fast Pre-training，2022.03.28
+8. SemMAE: Semantic-Guided Masking for Learning Masked Autoencoders，2022.10.05
 
 
-## 其他
-1. AI Choreographer: Music Conditioned 3D Dance Generation with AIST++, 2021.01.21
-1. MaskGIT: Masked Generative Image Transformer
-2. Mixed Autoencoder for Self-supervised Visual Representation Learning,2023.03.20
-3. MixMIM: Mixed and Masked Image Modeling for Efficient Visual Representation Learning,2022.05.26
-4. Are Large-scale Datasets Necessary for Self-Supervised Pre-training?, 2021.12.20
-5. MAE: Masked Autoencoders Are Scalable Vision Learners, 2021.12.09
-6. SimMIM: a Simple Framework for Masked Image Modeling, 2021.11.18
-7. Multimodal Masked Autoencoders Learn Transferable Representations, ICLR 2023 reject, 2022.10.21, https://github.com/young-geng/m3ae_public
-8. Connecting representation and generation via masked vision-language transformer, ICLR 2023 reject, 2023.02.02
-9. MultiMAE: Multi-modal Multi-task Masked Autoencoders, 2022.04.04, ECCV2022
-10. Scaling Language-Image Pre-training via Masking, 2022.12.01, Kaiming He
-11. VLMAE: Vision-Language Masked Autoencoder, 2022.08.19
-12. Language-Driven Representation Learning for Robotics, 2023.02.24
-13. Masked Contrastive Pre-Training for Efficient Video-Text Retrieval, 2022.12.05
-14. MAMO: Masked Multimodal Modeling for Fine-Grained Vision-Language Representation Learning, 2022.12.09
-15. GLIPv2: Unifying Localization and VL Understanding, 2022.10.11
-16. ConvMAE: Masked Convolution Meets Masked Autoencoders
-17. i-MAE: Are Latent Representations in Masked Autoencoders Linearly Separable?
+## 02 视频领域
+1. DropMAE: Masked Autoencoders with Spatial-Attention Dropout for Tracking Tasks，2023.04.02
+  1. 引入时序关系学习
+2. Unlocking Masked Autoencoders as Loss Function for Image and Video Restoration, 2023.03.29
 
+
+## 03 数据增强
+1. Mixed Autoencoder for Self-supervised Visual Representation Learning, 2023.03.30
+
+## 04 Architecture
+1. Masked Autoencoders as Image Processors, 2023.03.30
+2. Denoising Diffusion Autoencoders are Unified Self-supervised Learners, 2023.03.17
+3. Generic-to-Specific Distillation of Masked Autoencoders, 2023.02.28
+4. PixMIM: Rethinking Pixel Reconstruction in Masked Image Modeling, 2023.03.24
+5. MOMA: Distill from Self-Supervised Teachers，2023.02.04
+    * 蒸馏
+6. Swin MAE: Masked Autoencoders for Small Datasets，2023.01.05
+7. Improving Visual Representation Learning through Perceptual Understanding， 2023.03.28
+8. GD-MAE: Generative Decoder for MAE Pre-training on LiDAR Point Clouds，2023.03.17
+9. SMAUG: Sparse Masked Autoencoder for Efficient Video-Language Pre-training，2022.11.30
+10. CAE v2: Context Autoencoder with CLIP Target，2022.11.17
+11. Stare at What You See: Masked Image Modeling without Reconstruction，2023.03.16
+12. SupMAE: Supervised Masked Autoencoders Are Efficient Vision Learners，2022.08.16
+13. VLMAE: Vision-Language Masked Autoencoder,2022.08.19
+
+## 05 结合对比学习
+1. Visual Representation Learning from Unlabeled Video using Contrastive Masked Autoencoders, 2023.03.21
+2. MCAE: Masked Contrastive Autoencoder for Face Anti-Spoofing， 2023.02.17
+3. CMAE-V: Contrastive Masked Autoencoders for Video Action Recognition，2023.01.15
+4. Masked Contrastive Representation Learning，2022.11.11
+5. Contrastive Masked Autoencoders are Stronger Vision Learners，2022.11.28
+
+## 06 3D
+1. PiMAE: Point Cloud and Image Interactive Masked Autoencoders for 3D Object Detection, 2023.03.14
+2. Joint-MAE: 2D-3D Joint Masked Autoencoders for 3D Point Cloud Pre-training，2023.03.30
+3. AUTOENCODERS AS CROSS-MODAL TEACHERS: CAN PRETRAINED 2D IMAGE TRANSFORMERS HELP 3D REPRESENTATION LEARNING，2023.02.02
+4. MAELi - Masked Autoencoder for Large-Scale LiDAR Point Clouds，2023.03.17
+5. Learning 3D Representations from 2D Pre-trained Models via Image-to-Point Masked Autoencoders，2022.12.13
+6. BEV-MAE: Bird’s Eye View Masked Autoencoders for Outdoor Point Cloud Pre-training
+7. GD-MAE: Generative Decoder for MAE Pre-training on LiDAR Point Clouds，2023.03.17
+8. Point-MA2E: Masked and Affine Transformed AutoEncoder for Self-supervised Point Cloud Learning，2023.03.18
+9. Voxel-MAE: Masked Autoencoders for Self-supervised Pre-training Large-scale，2022.11.23
+10. Masked Autoencoder for Self-Supervised Pre-training on Lidar Point Clouds，2023.03.09
+11. MeshMAE: Masked Autoencoders for 3D Mesh Data Analysis，2022.11.11

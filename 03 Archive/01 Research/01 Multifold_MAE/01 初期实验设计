@@ -1,0 +1,8 @@
+
+## Multifold Cross-modal Masked Pre-training 初期实验方案设计
+
+### 实验一 Vanilla PiMAE Pre-training
+由于torch版本的不同，同时原始repo也没有给出具体的torch版本信息，当使用和PiMAE相同的batchsize (128)设置时，会报错，这个error是由于torch版本不同带来的bug。当降低batchsize至100时，可以正常预训练。
+
+
+

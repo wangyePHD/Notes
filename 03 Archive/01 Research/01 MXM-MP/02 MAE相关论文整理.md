@@ -69,6 +69,7 @@
 ## 06 3D
 1. PiMAE: Point Cloud and Image Interactive Masked Autoencoders for 3D Object Detection, 2023.03.14
 2. Joint-MAE: 2D-3D Joint Masked Autoencoders for 3D Point Cloud Pre-training，2023.03.30
+    * 训练在ShapeNet上，应该说是第一个cross-model image&pointcloud的Mask learning工作，没有代码release
 3. AUTOENCODERS AS CROSS-MODAL TEACHERS: CAN PRETRAINED 2D IMAGE TRANSFORMERS HELP 3D REPRESENTATION LEARNING，2023.02.02
 4. MAELi - Masked Autoencoder for Large-Scale LiDAR Point Clouds，2023.03.17
 5. Learning 3D Representations from 2D Pre-trained Models via Image-to-Point Masked Autoencoders，2022.12.13

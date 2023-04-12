@@ -14,6 +14,16 @@ This paper proposed a method called TransFGVC that consists of Swin Transformer 
 
 ### Technical correctness and quality of results
 1. The technical correctness is fine but this paper lacks of comparisons with the existing SOTA methods.
+2. The authors should verify the effectiveness of the LSTM module by adding a group ablation study to comparing classification results with and without LSTM.
+
+
+### Others questions
+1. The author mentions “we optimize a single network with weak supervision” in the last sentence of Section 2.1. But according to the method described in Section 3, supervised learning is adopted in this paper. Please explain how does it use weak supervision ?
+2. According to Section 3.3, the TransFGVC consists of Swim-Transformer、LSTM and a classifier. But the author does not introduce the detail of the classifier.
+3. The author uses “accuracy” and “precision” to show the performance of TransFGVC in Conclusion section. But these two words have different meanings in English, please check them! 
+4. There are some other issues. For example, the caption of Table 6 does not match the table and the table is far away from the introduction of it. And what is the meaning of the “B” in Table 6?  
+
+
 
 ### Adequate reference to previous work
 The missing references are as follows:
@@ -21,3 +31,4 @@ The missing references are as follows:
 [2] MetaFormer: A Unified Meta Framework for Fine-Grained Recognition
 
 The above papers have not been published.
+

@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="QJdw_326ccB6S8VfufzI" name="第 1 页">
-        <mxGraphModel dx="2086" dy="1786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1617" dy="1527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -29,7 +29,7 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="3" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;FaF&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;" parent="1" vertex="1">
+                <mxCell id="3" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;FaF&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="10" y="260" width="40" height="20" as="geometry"/>
                 </mxCell>
                 <mxCell id="5" value="CVPR18" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" parent="1" vertex="1">
@@ -45,7 +45,7 @@
                     <mxGeometry y="6" width="120" height="110" as="geometry"/>
                 </mxCell>
                 <mxCell id="33" value="Fast and Furious: &lt;br&gt;Real Time End-to-End &lt;br&gt;3D Detection, Tracking&lt;br&gt;&amp;nbsp;and Motion Forecasting &lt;br&gt;with a Single Convolutional Net" style="text;whiteSpace=wrap;html=1;fontSize=8;fontFamily=Helvetica;align=center;" parent="8" vertex="1">
-                    <mxGeometry y="-61" width="130" height="70" as="geometry"/>
+                    <mxGeometry y="-57" width="130" height="70" as="geometry"/>
                 </mxCell>
                 <mxCell id="11" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=10;" parent="1" edge="1">
                     <mxGeometry relative="1" as="geometry">
@@ -59,7 +59,7 @@
                 <mxCell id="25" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;fontFamily=Helvetica;fontSize=8;" parent="1" source="14" target="16" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="14" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;MinConV&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;" parent="1" vertex="1">
+                <mxCell id="14" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;MinConV&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="61" y="260" width="40" height="20" as="geometry"/>
                 </mxCell>
                 <mxCell id="15" value="" style="group" parent="1" vertex="1" connectable="0">
@@ -71,7 +71,7 @@
                 <mxCell id="17" value="&lt;br&gt;&lt;b&gt;解决问题&lt;/b&gt;：对于3 videos数据（sequence of pointcloud、LiDAR scans），之前的方法都是逐帧处理。没有考虑时序关系。&lt;br&gt;本文基于Voxel表征，提出了一个新的4D卷积方法。" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=10;align=left;" parent="15" vertex="1">
                     <mxGeometry y="6" width="120" height="110" as="geometry"/>
                 </mxCell>
-                <mxCell id="18" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;Action4D&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;" parent="1" vertex="1">
+                <mxCell id="18" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;Action4D&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="113" y="260" width="40" height="20" as="geometry"/>
                 </mxCell>
                 <mxCell id="19" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=10;" parent="1" edge="1">
@@ -91,7 +91,7 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="21" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;Graph3D&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;" parent="1" vertex="1">
+                <mxCell id="21" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;Graph3D&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="163" y="260" width="40" height="20" as="geometry"/>
                 </mxCell>
                 <mxCell id="22" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=10;" parent="1" edge="1">
@@ -113,10 +113,10 @@
                     <mxGeometry y="6" width="120" height="110" as="geometry"/>
                 </mxCell>
                 <mxCell id="31" value="4D Spatio-Temporal &lt;br&gt;ConvNets: Minkowski&lt;br&gt;&amp;nbsp;Convolutional&lt;br&gt;&amp;nbsp;Neural Networks" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=8;fontFamily=Helvetica;" parent="1" vertex="1">
-                    <mxGeometry x="-148" y="-181" width="100" height="50" as="geometry"/>
+                    <mxGeometry x="-148" y="-177" width="100" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="32" value="LiDAR-based Online 3D Video &lt;br&gt;Object Detection with &lt;br&gt;Graph-based Message &lt;br&gt;Passing and Spatiotemporal &lt;br&gt;Transformer Attention" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=8;fontFamily=Helvetica;" parent="1" vertex="1">
-                    <mxGeometry x="-41" y="-186" width="130" height="60" as="geometry"/>
+                    <mxGeometry x="-41" y="-182" width="130" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="35" value="基于其他表征：&lt;br&gt;BEV、Voxel、Pillar" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=8;fontFamily=Helvetica;" parent="1" vertex="1">
                     <mxGeometry x="-85" y="255" width="90" height="30" as="geometry"/>
@@ -129,7 +129,7 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="36" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;PPTr&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;" parent="1" vertex="1">
+                <mxCell id="36" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;PPTr&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="441" y="260" width="40" height="20" as="geometry"/>
                 </mxCell>
                 <mxCell id="37" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=10;" parent="1" edge="1">
@@ -150,7 +150,7 @@
                 <mxCell id="41" value="&lt;br&gt;&lt;b&gt;解决问题&lt;/b&gt;：之前的方法无法捕捉点云序列的长距离依赖，同时处理效率较低。&lt;br&gt;本文利用primitive frame作为中间表示。解决上述问题。" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=10;align=left;" parent="39" vertex="1">
                     <mxGeometry y="6" width="120" height="110" as="geometry"/>
                 </mxCell>
-                <mxCell id="43" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;3DV&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;" parent="1" vertex="1">
+                <mxCell id="43" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;3DV&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="273" y="260" width="40" height="20" as="geometry"/>
                 </mxCell>
                 <mxCell id="44" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=10;" parent="1" edge="1">
@@ -170,7 +170,7 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="46" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;MeteorNet&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;" parent="1" vertex="1">
+                <mxCell id="46" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;MeteorNet&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="223" y="260" width="40" height="20" as="geometry"/>
                 </mxCell>
                 <mxCell id="47" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=10;" parent="1" edge="1">
@@ -205,7 +205,7 @@
                         <mxPoint x="1" y="12" as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="53" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;PSTNet&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;" parent="1" vertex="1">
+                <mxCell id="53" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;PSTNet&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="324" y="260" width="40" height="20" as="geometry"/>
                 </mxCell>
                 <mxCell id="54" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=10;" parent="1" edge="1">
@@ -234,7 +234,7 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="61" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;P4Transformer&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;" parent="1" vertex="1">
+                <mxCell id="61" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;P4Transformer&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="373.5" y="260" width="56.5" height="20" as="geometry"/>
                 </mxCell>
                 <mxCell id="62" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=10;" parent="1" edge="1">
@@ -263,7 +263,7 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="68" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;PSTNet++&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;" parent="1" vertex="1">
+                <mxCell id="68" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;PSTNet++&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="491" y="260" width="49" height="20" as="geometry"/>
                 </mxCell>
                 <mxCell id="69" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=10;" parent="1" edge="1">
@@ -273,16 +273,16 @@
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="71" value="Point Primitive Transformer for &lt;br&gt;Long-Term 4D Point Cloud &lt;br&gt;Video Understanding" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=8;fontFamily=Helvetica;" parent="1" vertex="1">
-                    <mxGeometry x="494" y="-171" width="130" height="40" as="geometry"/>
+                    <mxGeometry x="494" y="-167" width="130" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="72" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;PSTNet: Point &lt;br&gt;Spatio-Temporal Convolution on &lt;br&gt;Point Cloud Sequences&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
-                    <mxGeometry x="219" y="-176" width="140" height="40" as="geometry"/>
+                    <mxGeometry x="219" y="-172" width="140" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="74" value="Point 4D Transformer Networks &lt;br&gt;for Spatio-Temporal Modeling&lt;br&gt;&amp;nbsp;in Point Cloud Videos" style="text;whiteSpace=wrap;html=1;fontSize=8;align=center;" parent="1" vertex="1">
-                    <mxGeometry x="359.5" y="-171" width="127" height="30" as="geometry"/>
+                    <mxGeometry x="359.5" y="-167" width="127" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="75" value="MeteorNet: Deep Learning&lt;br&gt;&amp;nbsp;on Dynamic 3D &lt;br&gt;Point Cloud Sequences" style="text;whiteSpace=wrap;html=1;fontSize=8;align=center;" parent="1" vertex="1">
-                    <mxGeometry x="119" y="-187" width="80" height="60" as="geometry"/>
+                    <mxGeometry x="119" y="-183" width="80" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="76" value="TPAMI22" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" parent="1" vertex="1">
                     <mxGeometry x="485.5" y="315" width="60" height="30" as="geometry"/>
@@ -295,6 +295,119 @@
                 </mxCell>
                 <mxCell id="79" value="&lt;br&gt;&lt;b&gt;解决问题&lt;/b&gt;：PSTNet的扩展版本，投递至TPAMI。" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=10;align=left;" parent="77" vertex="1">
                     <mxGeometry y="6" width="120" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="83" value="" style="endArrow=classic;html=1;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="30" y="1503" as="sourcePoint"/>
+                        <mxPoint x="540" y="1503" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="84" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=10;" parent="1" source="86" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="100.5" y="1502.9999999999998" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="155" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=8;dashed=1;" parent="1" source="86" target="89" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="86" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;OrderNet&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="80.5" y="1443" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="87" value="WACV21" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" parent="1" vertex="1">
+                    <mxGeometry x="70.5" y="1498" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="88" value="" style="group" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="40" y="1213" width="140" height="122" as="geometry"/>
+                </mxCell>
+                <mxCell id="89" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;fillColor=#ffe6cc;strokeColor=#000000;" parent="88" vertex="1">
+                    <mxGeometry width="120" height="122" as="geometry"/>
+                </mxCell>
+                <mxCell id="90" value="&lt;br&gt;&lt;b&gt;解决问题&lt;/b&gt;：首次提出了4D点云的自监督学习方法。&lt;br&gt;&lt;br&gt;将点云序列进行编号，然后shuffle，最后预测原始的序号。" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=10;align=left;" parent="88" vertex="1">
+                    <mxGeometry y="6" width="120" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="91" value="Self-supervised 4D Spatio-temporal Feature Learning via Order Prediction of Sequential Point Cloud Clips" style="text;whiteSpace=wrap;html=1;fontSize=8;fontFamily=Helvetica;align=center;" parent="88" vertex="1">
+                    <mxGeometry y="-57" width="130" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="92" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=10;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="226.5" y="1502.9999999999998" as="targetPoint"/>
+                        <mxPoint x="226.5" y="1462.9999999999998" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="93" value="ICCV21" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" parent="1" vertex="1">
+                    <mxGeometry x="198.5" y="1498" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="156" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=8;fontColor=default;endArrow=classic;dashed=1;" parent="1" source="95" target="97" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="95" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;STRL&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="206.5" y="1443" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="96" value="" style="group" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="166" y="1213" width="120" height="122" as="geometry"/>
+                </mxCell>
+                <mxCell id="97" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;fillColor=#ffe6cc;strokeColor=#000000;" parent="96" vertex="1">
+                    <mxGeometry width="120" height="122" as="geometry"/>
+                </mxCell>
+                <mxCell id="98" value="&lt;br&gt;&lt;b&gt;解决问题&lt;/b&gt;：BYOL的4D点云拓展版。&lt;br&gt;&lt;br&gt;选取3D点云的不同帧进行对比。" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=10;align=left;" parent="96" vertex="1">
+                    <mxGeometry y="6" width="120" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="157" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=8;fontColor=default;endArrow=classic;dashed=1;" parent="1" source="99" target="107" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="99" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;STSSL&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="333.5" y="1443" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="100" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=10;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="353.21000000000004" y="1502.9999999999998" as="targetPoint"/>
+                        <mxPoint x="353.21000000000004" y="1462.9999999999998" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="101" value="CVPR23" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" parent="1" vertex="1">
+                    <mxGeometry x="323.5" y="1498" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="158" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=8;fontColor=default;endArrow=classic;dashed=1;" parent="1" source="103" target="127" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="103" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;C2P&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="461" y="1443" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="104" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=10;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="480.71000000000004" y="1502.9999999999998" as="targetPoint"/>
+                        <mxPoint x="480.71000000000004" y="1462.9999999999998" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="105" value="CVPR23" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" parent="1" vertex="1">
+                    <mxGeometry x="451" y="1497" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="106" value="" style="group" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="293" y="1213" width="120" height="122" as="geometry"/>
+                </mxCell>
+                <mxCell id="107" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;fillColor=#ffe6cc;strokeColor=#000000;" parent="106" vertex="1">
+                    <mxGeometry width="120" height="122" as="geometry"/>
+                </mxCell>
+                <mxCell id="108" value="&lt;br&gt;&lt;b&gt;解决问题&lt;/b&gt;：之前的方法都是在spatial层面进行自监督学习。本文在时间层面也引入了自监督学习。&lt;br&gt;&lt;br&gt;两个点：&lt;br&gt;相同帧上的对比&lt;br&gt;不同帧上的对比" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=10;align=left;" parent="106" vertex="1">
+                    <mxGeometry y="6" width="120" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="109" value="Spatio-temporal Self-Supervised &lt;br&gt;Representation Learning&lt;br&gt;&amp;nbsp;for 3D Point Clouds" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=8;fontFamily=Helvetica;" parent="1" vertex="1">
+                    <mxGeometry x="161" y="1163" width="140" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="110" value="Spatiotemporal Self-supervised &lt;br&gt;Learning for Point &lt;br&gt;Clouds in the Wild" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=8;fontFamily=Helvetica;" parent="1" vertex="1">
+                    <mxGeometry x="288" y="1163" width="130" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="126" value="" style="group" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="421" y="1213" width="120" height="122" as="geometry"/>
+                </mxCell>
+                <mxCell id="127" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;fillColor=#ffe6cc;strokeColor=#000000;" parent="126" vertex="1">
+                    <mxGeometry width="120" height="122" as="geometry"/>
+                </mxCell>
+                <mxCell id="128" value="&lt;br&gt;&lt;b&gt;解决问题&lt;/b&gt;：之前的方法没有考虑到时间信息。无法面向动态场景理解。&lt;br&gt;&lt;br&gt;本文设计了整体到部分的知识蒸馏方法，同时在下游设计了4D动态场景理解的任务" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=10;align=left;" parent="126" vertex="1">
+                    <mxGeometry y="6" width="120" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="150" value="MeteorNet: Deep Learning&lt;br&gt;&amp;nbsp;on Dynamic 3D &lt;br&gt;Point Cloud Sequences" style="text;whiteSpace=wrap;html=1;fontSize=8;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="441" y="1152" width="80" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="160" value="基于原始点云序列" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=8;fontFamily=Helvetica;" parent="1" vertex="1">
                     <mxGeometry x="560" y="260" width="90" height="20" as="geometry"/>
